@@ -10,7 +10,7 @@
 <?php wp_body_open(); ?>
 
     <header class="flex-0 bg-slate-100 px-4 border shadow-md">
-        <div class="max-w-screen-lg mx-auto flex justify-between items-center min-h-[40px]">
+        <div class="max-w-(--breakpoint-lg) mx-auto flex justify-between items-center min-h-[40px]">
             <div class="">
                 <a href="<?php echo home_url() ?>">Logo</a>
             </div>
@@ -20,5 +20,5 @@
         </div>
     </header>
 
-    <main class="flex-grow px-4 py-4">
+    <main class="grow px-4 py-4">
 

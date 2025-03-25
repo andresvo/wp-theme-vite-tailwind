@@ -1,6 +1,6 @@
 <?php get_header() ?>
 
-<div class="place-content-center flex items-center h-full max-w-screen-lg mx-auto">
+<div class="place-content-center flex items-center h-full max-w-(--breakpoint-lg) mx-auto">
     <div class="text-center">
         <h1 class="text-4xl font-bold text-black">Hello World!</h1>
         <h2 class="text-xl font-bold text-black">Wordpress Theme rapid development using Vite & Tailwindcss</h2>
